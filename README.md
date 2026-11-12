@@ -12,6 +12,7 @@ html, css и javascript без сборки, серверной части и б
 - `public/config.js` — публичные контакты владельца.
 - `public/assets/` — портрет, favicon и изображение для публикации ссылки.
 - `public/_headers` — заголовки для cloudflare pages.
+- `public/404.html` — страница для несуществующих адресов.
 - `public/robots.txt`, `public/sitemap.xml` — индексация.
 
 ## публикация

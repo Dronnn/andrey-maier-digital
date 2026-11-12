@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#eae6df">
+  <meta name="color-scheme" content="light">
+  <title>Андрей Майер — разработка сайтов, ботов и автоматизация бизнеса</title>
+  <meta name="description" content="Андрей Майер — независимый разработчик с 2013 года. Сайты от 25 000 ₽, интернет-магазины, боты для Telegram и ВКонтакте, автоматизация и ИИ-ассистенты. Работаю напрямую с заказчиком.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Андрей Майер — цифровые продукты для бизнеса">
+  <meta property="og:description" content="Сайты, магазины, боты, автоматизация и ИИ. Разрабатываю с нуля, дорабатываю и поддерживаю.">
+  <meta property="og:image" content="assets/og-cover.svg">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Roboto+Condensed:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="config.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">к содержимому</a>
+  <div class="site-shell">
+    <header class="site-header" id="top">
+      <a href="#top" class="brand" aria-label="андрей майер — наверх">
+        <span class="brand-mark">am<span class="brand-period">.</span></span>
+        <span class="brand-caption">независимый<br>разработчик</span>
+      </a>
+      <nav class="desktop-nav" aria-label="основная навигация">
+        <a href="#services">услуги</a>
+        <a href="#solutions">решения</a>
+        <a href="#about">обо мне</a>
+        <a href="#contact">контакты</a>
+      </nav>
+      <a class="header-cta" href="#contact"><span>обсудить проект</span><span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-label="открыть меню" aria-controls="mobile-menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </header>
+    <nav class="mobile-menu" id="mobile-menu" aria-label="мобильная навигация" hidden>
+      <a href="#services">услуги</a><a href="#solutions">решения</a><a href="#about">обо мне</a><a href="#contact">контакты</a>
+      <a class="mobile-menu-cta" href="#contact">обсудить проект ↗</a>
+    </nav>
+
+    <main id="main">
+      <section class="hero panel-lines" aria-labelledby="hero-title">
+        <div class="hero-rays" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="hero-eyebrow">
+          <span class="hero-eyebrow-left"><i class="availability-dot" aria-hidden="true"></i> проекты для бизнеса · разработка</span>
+          <span>с 2013 года в IT</span>
+        </div>
+        <div class="hero-composition">
+        <h1 class="hero-type" id="hero-title" aria-label="андрей майер">
+          <svg class="hero-lettering" viewBox="0 0 1092 472" aria-hidden="true">
+            <defs>
+              <filter id="brush-grain" x="-5%" y="-5%" width="110%" height="110%">
+                <feTurbulence type="fractalNoise" baseFrequency=".085" numOctaves="3" seed="8" result="grain"/>
+                <feDisplacementMap in="SourceGraphic" in2="grain" scale="2.3" xChannelSelector="R" yChannelSelector="G"/>
+              </filter>
+            </defs>
+            <g class="hero-frame" fill="none"><path d="M18 0V472 M1065 0V472 M0 16H1092"/></g>
+            <g class="hero-name" fill="currentColor">
+              <text x="90" y="254" textLength="855" lengthAdjust="spacingAndGlyphs">АНДРЕЙ</text>
+              <text x="298" y="455" textLength="775" lengthAdjust="spacingAndGlyphs">МАЙЕР</text>
+            </g>
+            <g class="hero-brush" fill="none" filter="url(#brush-grain)">
+              <path class="brush-a" d="M60 300C120 235 261 50 327 14C361 -10 283 115 258 169 M18 245C28 216 184 177 281 164"/>
+              <path class="brush-i" d="M708 306C679 356 614 431 627 445C640 458 745 357 780 309C791 293 737 375 731 400C725 424 750 404 764 394 M742 245C719 269 719 290 794 248"/>
+            </g>
+          </svg>
+        </h1>
+          <div class="hero-copy" id="intro">
+            <h2 class="intro-title rotating-title" id="intro-title" aria-label="от идеи до результата. ваша задача - моя разработка. вам заниматься делом - мне разработкой.">
+              <span class="hero-phrase" aria-hidden="true">от идеи<br>до <em>результата<span class="period">.</span></em></span>
+              <span class="hero-phrase" aria-hidden="true">ваша задача.<br>моя <em>разработка<span class="period">.</span></em></span>
+              <span class="hero-phrase" aria-hidden="true">вам заниматься<br><em>делом.</em> мне -<br><em>разработкой<span class="period">.</span></em></span>
+            </h2>
+
+          </div>
+          <!-- Reserve the previous text-row height so the name and rotating heading stay put. -->
+          <div class="intro-text hero-description-copy hero-description-reserve" aria-hidden="true" inert>
+            <p>нужен сайт, который приводит клиентов? бот, который обрабатывает заказы? система, которая избавит команду от рутины?</p>
+          </div>
+          <div class="hero-description-group">
+            <div class="intro-text hero-description-copy hero-description-copy--question">
+              <p>нужен <strong>сайт</strong>, который приводит клиентов? <strong>бот</strong>, который обрабатывает заказы? <strong>система</strong>, которая избавит команду от рутины?</p>
+            </div>
+            <div class="intro-text hero-description-copy hero-description-copy--answer">
+              <p>я разберусь в вашей задаче, предложу решение и самостоятельно доведу проект до запуска.</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-bottom">
+          <div class="hero-roles" aria-label="направления">сайты <b>/</b> боты <b>/</b> приложения <b>/</b> автоматизация</div>
+          <div class="hero-actions">
+            <a href="#contact" class="hero-primary-link">рассказать о задаче <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#services">услуги и цены <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="ticker" aria-hidden="true">
+          <div class="ticker-track">
+            <div class="ticker-group">
+              <span class="ticker-item">дизайн <i>✳</i> разработка <i>✳</i> запуск <i>✳</i> поддержка <i>✳</i></span>
+              <span class="ticker-item">дизайн <i>✳</i> разработка <i>✳</i> запуск <i>✳</i> поддержка <i>✳</i></span>
+              <span class="ticker-item">дизайн <i>✳</i> разработка <i>✳</i> запуск <i>✳</i> поддержка <i>✳</i></span>
+              <span class="ticker-item">дизайн <i>✳</i> разработка <i>✳</i> запуск <i>✳</i> поддержка <i>✳</i></span>
+            </div>
+            <div class="ticker-group">
+              <span class="ticker-item">дизайн <i>✳</i> разработка <i>✳</i> запуск <i>✳</i> поддержка <i>✳</i></span>
+              <span class="ticker-item">дизайн <i>✳</i> разработка <i>✳</i> запуск <i>✳</i> поддержка <i>✳</i></span>
+              <span class="ticker-item">дизайн <i>✳</i> разработка <i>✳</i> запуск <i>✳</i> поддержка <i>✳</i></span>
+              <span class="ticker-item">дизайн <i>✳</i> разработка <i>✳</i> запуск <i>✳</i> поддержка <i>✳</i></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services-section section-wrap" id="services" aria-labelledby="services-title">
+        <div class="section-topline reveal"><span>02 / услуги</span><span>от простого сайта до сложной системы</span></div>
+        <div class="services-heading reveal"><h2 id="services-title">что я<br><em>создаю<span class="period">.</span></em></h2><p>у каждой задачи свой масштаб. начнём с цели, а технологии подберём под неё.</p></div>
+        <div class="service-list" aria-label="услуги и стартовые цены">
+          <details class="service-row reveal">
+            <summary><span class="service-n">01</span><span class="service-main"><strong>сайты</strong><small>лендинги, сайты-визитки, корпоративные сайты</small></span><span class="service-price">от 25 000 ₽</span><span class="service-action" aria-hidden="true">↗</span></summary>
+            <div class="service-panel">
+              <div class="service-extra">
+                <div class="service-copy"><p>сайт знакомит с вами и помогает получить обращение. подойдёт для отдельной услуги, специалиста или компании: от короткого лендинга до сайта с несколькими разделами.</p><p>продумываю структуру страниц, размещаю информацию об услугах и работах, добавляю формы заявки и удобные способы связи. адаптирую сайт для телефона и компьютера, подключаю аналитику и базовую настройку для поисковых систем.</p><p>на выходе - опубликованный сайт с вашим содержимым и рабочим приёмом заявок. способ самостоятельного обновления текстов и материалов согласуем под ваши задачи.</p></div>
+                <a href="#contact">обсудить сайт ↗</a>
+              </div>
+            </div>
+          </details>
+          <details class="service-row reveal">
+            <summary><span class="service-n">02</span><span class="service-main"><strong>интернет-магазины</strong><small>каталог, корзина, оформление заказов и онлайн-оплата</small></span><span class="service-price">от 80 000 ₽</span><span class="service-action" aria-hidden="true">↗</span></summary>
+            <div class="service-panel">
+              <div class="service-extra">
+                <div class="service-copy"><p>интернет-магазин позволяет выбрать товар и оформить покупку. подойдёт для продажи физической продукции: от небольшого ассортимента до каталога с категориями.</p><p>создаю карточки товаров с фотографиями и вариантами, поиск и фильтры, корзину и оформление заказа. подключаю подходящие способы оплаты и доставки, уведомления о заказах и управление ассортиментом.</p><p>на выходе - магазин с покупательским сценарием от выбора товара до подтверждения заказа и инструментами для обработки покупок. состав функций подбираем под ассортимент и порядок вашей работы.</p></div>
+                <a href="#contact">обсудить магазин ↗</a>
+              </div>
+            </div>
+          </details>
+          <details class="service-row reveal">
+            <summary><span class="service-n">03</span><span class="service-main"><strong>боты для telegram и вконтакте</strong><small>меню, анкеты и согласованные сценарии общения</small></span><span class="service-price">от 15 000 ₽</span><span class="service-action" aria-hidden="true">↗</span></summary>
+            <div class="service-panel">
+              <div class="service-extra">
+                <div class="service-copy"><p>бот ведёт человека по заранее продуманному сценарию внутри telegram или вконтакте. удобен для анкеты, записи, приёма заявки, выдачи материалов или проверки статуса.</p><p>составляю логику диалога, меню, кнопки и последовательность вопросов. добавляю проверку введённых данных, передачу заявки сотруднику, уведомления и команды управления. при необходимости подключаю бот к вашему действующему сервису.</p><p>на выходе - работающий бот с согласованными правилами общения. клиент получает понятный следующий шаг, а вы - заполненное обращение в удобном формате.</p></div>
+                <a href="#contact">обсудить бота ↗</a>
+              </div>
+            </div>
+          </details>
+          <details class="service-row reveal">
+            <summary><span class="service-n">04</span><span class="service-main"><strong>автоматизация бизнеса</strong><small>связь между вашими действующими сервисами</small></span><span class="service-price">от 25 000 ₽</span><span class="service-action" aria-hidden="true">↗</span></summary>
+            <div class="service-panel">
+              <div class="service-extra">
+                <div class="service-copy"><p>автоматизация связывает сервисы, уже используемые в вашем бизнесе. подходит, если сотрудники вручную переносят заявки, копируют данные или регулярно собирают однотипные документы.</p><p>разбираю процесс и настраиваю передачу данных между формами, таблицами, учётными системами и другими доступными сервисами. добавляю нужные действия по событиям или расписанию: создание записи, обновление статуса, уведомление или формирование отчёта.</p><p>на выходе - согласованный процесс с обработкой ошибок и проверкой результата. предмет работы здесь - взаимодействие ваших существующих инструментов и сокращение повторяющихся действий.</p></div>
+                <a href="#contact">обсудить автоматизацию ↗</a>
+              </div>
+            </div>
+          </details>
+          <details class="service-row reveal">
+            <summary><span class="service-n">05</span><span class="service-main"><strong>ии-боты и ассистенты</strong><small>ответы по вашим материалам и работа с текстом</small></span><span class="service-price">от 35 000 ₽</span><span class="service-action" aria-hidden="true">↗</span></summary>
+            <div class="service-panel">
+              <div class="service-extra">
+                <div class="service-copy"><p>ии-помощник работает с вопросами и текстами в свободной форме. подходит для поиска по вашим материалам, подготовки ответов клиентам, разбора обращений и кратких сводок.</p><p>подключаю выбранную языковую модель к согласованным источникам знаний, задаю правила ответа и проверяю работу на примерах ваших задач. продумываю передачу сложного вопроса человеку и размещаю помощника в подходящем интерфейсе.</p><p>на выходе - помощник с понятной областью задач и источниками информации. его основная функция - находить, понимать и готовить содержание на основе ваших материалов.</p></div>
+                <a href="#contact">обсудить ии-помощника ↗</a>
+              </div>
+            </div>
+          </details>
+          <details class="service-row reveal">
+            <summary><span class="service-n">06</span><span class="service-main"><strong>разработка ios-приложений</strong><small>нативные приложения для iphone и ipad</small></span><span class="service-price">от 100 000 ₽</span><span class="service-action" aria-hidden="true">↗</span></summary>
+            <div class="service-panel">
+              <div class="service-extra">
+                <div class="service-copy"><p>нативное приложение работает на iphone и ipad и использует возможности устройств apple. подойдёт для нового продукта или развития уже опубликованного приложения.</p><p>разрабатываю экраны и навигацию на swift, swiftui и uikit, хранение данных на устройстве и подключение к вашему серверу. при необходимости добавляю уведомления, камеру, геолокацию и другие системные возможности.</p><p>на выходе - приложение с согласованным набором функций. беру на себя проверку основных сценариев, подготовку сборок для тестирования и подготовку к публикации в app store.</p></div>
+                <a href="#contact">обсудить ios-приложение ↗</a>
+              </div>
+            </div>
+          </details>
+          <details class="service-row reveal">
+            <summary><span class="service-n">07</span><span class="service-main"><strong>разработка веб-приложений и saas-сервисов</strong><small>личные кабинеты, crm и онлайн-платформы</small></span><span class="service-price">от 120 000 ₽</span><span class="service-action" aria-hidden="true">↗</span></summary>
+            <div class="service-panel">
+              <div class="service-extra">
+                <div class="service-copy"><p>веб-приложение - самостоятельный рабочий инструмент в браузере. подойдёт для личного кабинета, crm, системы бронирования, клиентского портала или сервиса по подписке.</p><p>проектирую роли пользователей, рабочие экраны и правила действий. создаю серверную часть и базу данных, добавляю авторизацию, историю операций и функции конкретного процесса: расписание, заявки, документы или подписки.</p><p>на выходе - собственная онлайн-платформа, где пользователи входят в систему и решают свои задачи. первую версию можно ограничить основным сценарием и развивать по обратной связи.</p></div>
+                <a href="#contact">обсудить веб-приложение ↗</a>
+              </div>
+            </div>
+          </details>
+        </div>
+        <div class="services-note reveal"><span>↳</span><p>цены указаны как ориентир для старта. точную стоимость определим после обсуждения функциональности, сроков и сложности задачи.</p></div>
+      </section>
+
+      <section class="solutions-section" id="solutions" aria-labelledby="solutions-title">
+        <div class="solutions-inner section-wrap">
+          <div class="section-topline reveal"><span>03 / для вашего бизнеса</span><span>узнайте свою ситуацию</span></div>
+          <div class="solutions-layout">
+            <div class="solutions-left">
+              <h2 id="solutions-title" class="reveal">с какой<br>задачей<br><em>вы пришли<span class="period">?</span></em></h2>
+              <div class="solution-item solution-item--lead reveal">
+                <span>01 / обращения клиентов</span>
+                <h3>заявки теряются<br>в переписках.</h3>
+                <p>клиенты пишут в разных местах. приходится искать контакты, уточнять детали заново и вспоминать, кому уже ответили.</p>
+                <div class="solution-answer"><span>что можно сделать</span><p>форма на сайте или бот собирает нужную информацию и передаёт обращение в общий список. у каждой заявки появляются статус и понятный следующий шаг.</p></div>
+              </div>
+              <div class="solutions-orbit parallax-item" data-parallax="0.08" aria-hidden="true"><div class="orbit-ring"></div><div class="orbit-cross">✳</div></div>
+            </div>
+            <div class="solutions-right">
+              <div class="solution-item reveal">
+                <span>02 / повторяющаяся работа</span>
+                <h3>одно и то же<br>вручную.</h3>
+                <p>данные из заявки нужно перенести в таблицу, затем в другую систему. потом подготовить документ и отправить уведомление. каждый раз заново.</p>
+                <div class="solution-answer"><span>что можно сделать</span><p>связать ваши действующие сервисы: данные передаются автоматически, документы создаются по шаблону, уведомления уходят при нужном событии.</p></div>
+              </div>
+              <div class="solution-item reveal">
+                <span>03 / собственный продукт</span>
+                <h3>есть идея<br>своего сервиса.</h3>
+                <p>вы понимаете, кому он нужен, но пока неясно, какие функции делать первыми, сколько займёт разработка и с чего начать.</p>
+                <div class="solution-answer"><span>что можно сделать</span><p>выделить основной сценарий, определить состав первой версии и разработать её. затем проверить продукт на реальных пользователях и выбрать следующие шаги по их обратной связи.</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section section-wrap" id="about" aria-labelledby="about-title">
+        <div class="section-topline reveal"><span>04 / обо мне</span><span>опыт, а не обещания</span></div>
+        <div class="about-grid">
+          <div class="about-left reveal">
+            <figure class="about-portrait-card">
+              <svg class="about-portrait" viewBox="114 117 526 620" role="img" aria-labelledby="portrait-title" width="526" height="620">
+                <title id="portrait-title">андрей майер в чёрной рубашке</title>
+                <image href="assets/andrey-portrait.png" width="1672" height="941"/>
+              </svg>
+              <figcaption>
+                <p class="about-role">разработчик<br>и наставник</p>
+                <p class="years-caption">в разработке с 2013 года</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="about-right reveal"><h2 id="about-title">привет,<br>я <em>андрей<span class="period">.</span></em></h2><p>занимаюсь разработкой программного обеспечения и обучением разработчиков. работал в альфа-банке, сейчас сотрудничаю с яндекс практикумом.</p><p>беру на себя проект целиком: от обсуждения и реализации до запуска и дальнейшей поддержки. вы общаетесь напрямую со мной.</p><div class="about-links"><a href="https://mrmaier.com/" target="_blank" rel="noopener noreferrer" class="underlined-link">мой сайт ↗</a><a href="https://cv.mrmaier.com/" target="_blank" rel="noopener noreferrer" class="underlined-link">резюме / cv ↗</a></div></div>
+        </div>
+      </section>
+
+      <section class="process-section section-wrap" id="process" aria-labelledby="process-title">
+        <div class="section-topline reveal"><span>05 / как мы работаем</span><span>понятный результат на каждом этапе</span></div>
+        <h2 class="process-title reveal" id="process-title">вы знаете,<br>что получите. <em>и когда<span class="period">.</span></em></h2>
+        <div class="process-list">
+          <div class="process-step reveal">
+            <span class="step-n">01</span><h3>разбираемся<br>в задаче</h3>
+            <p>обсуждаем, кому нужен продукт, какую задачу он решает и что уже есть. выделяем основной сценарий и приоритеты.</p>
+            <div class="process-outcome"><span>на выходе</span><p>краткое описание задачи, пользователей и первой версии.</p></div>
+          </div>
+          <div class="process-step reveal">
+            <span class="step-n">02</span><h3>фиксируем<br>план работ</h3>
+            <p>согласуем функции, этапы, сроки и стоимость. определяем, по каким признакам будем принимать готовую работу.</p>
+            <div class="process-outcome"><span>на выходе</span><p>план работ с границами проекта и критериями готовности.</p></div>
+          </div>
+          <div class="process-step reveal">
+            <span class="step-n">03</span><h3>показываю<br>рабочую версию</h3>
+            <p>создаю рабочие версии и показываю основные сценарии. вы пробуете их, даёте обратную связь, мы согласуем необходимые уточнения.</p>
+            <div class="process-outcome"><span>на выходе</span><p>версия для проверки и согласованный список доработок.</p></div>
+          </div>
+          <div class="process-step reveal">
+            <span class="step-n">04</span><h3>проверяем<br>и передаём</h3>
+            <p>проверяем согласованные функции, публикуем продукт и разбираем порядок дальнейшей работы.</p>
+            <div class="process-outcome"><span>на выходе</span><p>работающий продукт, исходники, доступы и инструкция.</p></div>
+          </div>
+        </div>
+        <p class="process-note reveal">дополнительные пожелания обсуждаем и оцениваем до начала этих работ. дальнейшую поддержку согласуем отдельно.</p>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-inner section-wrap">
+          <div class="section-topline reveal"><span>06 / контакты</span><span>начнём с разговора</span></div>
+          <div class="contact-eyebrow reveal">есть задача? давайте решим её вместе.</div>
+          <h2 class="contact-title reveal" id="contact-title">обсудим<br><em>ваш проект<span class="period">?</span></em><svg class="contact-arrow" viewBox="0 0 100 100" aria-hidden="true"><path d="M8 92L92 8M32 8h60v60"/></svg></h2>
+          <div class="contact-bottom">
+            <div class="contact-pitch reveal"><p>напишите, что хотите создать или улучшить. помогу разобраться с подходом, сроками и предварительной стоимостью.</p></div>
+            <div class="contact-methods reveal" aria-label="варианты связи">
+              <a class="contact-method" data-contact="telegram" href="https://t.me/AndreasRobertMaier" target="_blank" rel="noopener noreferrer"><span>telegram</span><strong>@andreasrobertmaier</strong><i aria-hidden="true">↗</i></a>
+              <a class="contact-method" data-contact="email" href="mailto:hello@mrmaier.com"><span>email</span><strong>hello@mrmaier.com</strong><i aria-hidden="true">↗</i></a>
+              <a class="contact-method" data-contact="phone" href="tel:+79182560380"><span>телефон</span><strong>+7 918 256-03-80</strong><i aria-hidden="true">↗</i></a>
+              <a class="contact-method" data-contact="linkedin" href="https://linkedin.com/in/andreymayer/" target="_blank" rel="noopener noreferrer"><span>linkedin</span><strong>andreymayer</strong><i aria-hidden="true">↗</i></a>
+            </div>
+          </div>
+          <div class="contact-site-links reveal"><a href="https://mrmaier.com/" target="_blank" rel="noopener noreferrer">mrmaier.com ↗</a><a href="https://cv.mrmaier.com/" target="_blank" rel="noopener noreferrer">cv.mrmaier.com ↗</a><a href="https://github.com/Dronnn" target="_blank" rel="noopener noreferrer">github ↗</a></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section-wrap"><span>© <span id="year">2026</span> андрей майер</span><span>создано с вниманием к деталям</span><a href="#top" aria-label="вернуться наверх">наверх ↑</a></footer>
+  </div>
+</body>
+</html>
